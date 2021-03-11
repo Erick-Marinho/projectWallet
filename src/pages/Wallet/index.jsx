@@ -1,9 +1,14 @@
 import React from 'react';
+import WalletHeader from './components/WalletHeader';
+import WalletTable from './components/WalletTable';
+import WalletForm from './components/WalletForm';
 
 function Wallet() {
   return (
     <div>
-      Wallet
+      <WalletHeader />
+      <WalletTable />
+      <WalletForm />
     </div>
   );
 }
