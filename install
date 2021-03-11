@@ -1,0 +1,17 @@
+#!/bin/sh
+
+clear
+#
+rm -f ./package-lock.json 2>/dev/null
+rm -f ./yarn.lock 2>/dev/null
+rm -rf ./node_modules 2>/dev/null
+#
+rm -rf ./build 2>/dev/null
+rm -rf ./dist 2>/dev/null
+#
+clear
+#
+npm install
+npm audit fix
+#
+# npm run build

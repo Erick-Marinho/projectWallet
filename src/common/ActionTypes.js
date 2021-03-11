@@ -1,0 +1,3 @@
+export const USER_DEFAULT = 'USER_DEFAULT';
+
+export const WALLET_DEFAULT = 'WALLET_DEFAULT';
